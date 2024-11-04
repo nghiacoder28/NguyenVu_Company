@@ -1,0 +1,18 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h2 {
+    color: #007bff;
+}
+.product-image {
+    width: 100%; /* Chiều rộng 100% của cột */
+    height: 500px; /* Chiều cao cố định */
+    object-fit: cover; /* Đảm bảo hình ảnh được cắt và không bị biến dạng */
+}
+.image-container {
+    width: 200px; /* Chiều rộng cố định */
+    height: 200px; /* Chiều cao cố định */
+    overflow: hidden; /* Ẩn phần thừa nếu có */
+    margin: auto; /* Canh giữa */
+}
